@@ -1,0 +1,17 @@
+/* WeatherApp.css */
+.weatherAppContainer {
+    /* background: linear-gradient(to right, #81d4fa, #b3e5fc); Gradient background */
+    background: rgb(191, 223, 231);
+    min-height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+h2 {
+    color: #1976d2; /* Blue heading */
+    margin-bottom: 20px;
+}

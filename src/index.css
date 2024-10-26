@@ -1,0 +1,31 @@
+
+.InfoBox {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Wrap cards if there are many */
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px; /* Space between cards */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+/* Style for the search box */
+.SearchBox {
+  margin: 20px 0;
+}
